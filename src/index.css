@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  ul li {
+    @apply hover:text-blue-700 hover:underline-offset-4 underline lg:px-4;
+  }
+  h1 {
+    @apply text-3xl md:text-4xl font-bold mb-3;
+  }
+  h2 {
+    @apply text-3xl font-bold;
+  }
+  h3 {
+    @apply text-xl font-bold;
+  }
+  button{
+    @apply bg-amber-700 p-2 hover:bg-white m-auto;
+  }
+}
